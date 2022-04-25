@@ -1,0 +1,3 @@
+This class will introduced everyone to the course and to the topics we'll cover.
+We will introduce the mentors and everyone that will help lecturing the course.
+The materials of this class include...
