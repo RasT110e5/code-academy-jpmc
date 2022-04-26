@@ -1,0 +1,5 @@
+#Libre office locks
+**/.~lock**
+
+#VSCode personal settings
+.vscode/
