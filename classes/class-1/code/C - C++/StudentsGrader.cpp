@@ -32,7 +32,6 @@ int main() {
       }
       int diff = nextMultipleOf5 - gradeNumber;
       if (diff < 3) {
-        // Write-Host "Grade $grade rounded. => $nextMultipleOf5"
         cout << "Grade " << gradeNumber << " rounded. => " << nextMultipleOf5
              << endl;
       } else {
