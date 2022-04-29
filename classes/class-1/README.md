@@ -34,7 +34,7 @@ The word I highlighted on the definition is the bit that matters to us *coders/p
 it means this machine is meant to fullfil many use cases. Is meant to solve any issues that involve processing information from an input to an output.
 It archives this by having programs saved in its memory, passing the input to it and then serving the output.
 
-### **Program**
+#### **Program**
 That definition almost completely overlaps with the definition of system.
 > *"Organized Components to fullfil a function or set of functions"* - IEEE 610.12-1990
 
