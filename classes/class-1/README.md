@@ -25,7 +25,6 @@ The term coding is very open ended, and can be defined in several ways, we are g
 > *"An electronic digital **programmable** machine made to automatically process
 information. Capable of receiving, operating over and providing the results of such operations"*
 
-<!-- ![Programmable architecture](/classes//class-1//images/Von-Neumann_machine.jpg) -->
 <p align="center">
     <img src="images/Von-Neumann_machine.jpg" width="500"/>
 </p>
@@ -34,7 +33,7 @@ The word I highlighted on the definition is the bit that matters to us *coders/p
 it means this machine is meant to fullfil many use cases. Is meant to solve any issues that involve processing information from an input to an output.
 It archives this by having programs saved in its memory, passing the input to it and then serving the output.
 
-### **Program**
+#### **Program**
 That definition almost completely overlaps with the definition of system.
 > *"Organized Components to fullfil a function or set of functions"* - IEEE 610.12-1990
 
@@ -115,5 +114,6 @@ That is written in python and "translated" to english it would be something like
 - [Powershell eBook](/classes/class-1/bibliography/Powershell%20Course.pdf)
 - [Powershell eBook Extension](/classes/class-1/bibliography/Powershell%20Course%20-%20Class%202.pdf)
 - [Powershell in Action **Recommended if you really want to get into Powershell**](/classes/class-1/bibliography/Windows_PowerShell_in_Action_Third_Edit.pdf)
+- [Learn Python the Hard Way](/classes/class-1/bibliography/LPTHW.pdf)
 
 ### [Return to root](/README.md)
