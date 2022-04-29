@@ -113,7 +113,7 @@ That is written in python and "translated" to english it would be something like
 ## Bibliography / Video courses
 - [Powershell eBook](/classes/class-1/bibliography/Powershell%20Course.pdf)
 - [Powershell eBook Extension](/classes/class-1/bibliography/Powershell%20Course%20-%20Class%202.pdf)
-- [Powershell in Action **Recommended if you really want to get into Powershell**](/classes/class-1/bibliography/Windows_PowerShell_in_Action_Third_Edit.pdf)
-- [Learn Python the Hard Way](/classes/class-1/bibliography/LPTHW.pdf)
+- [Powershell in Action **Recommended if you really want to get into Powershell**](/general_bibliography/Windows_PowerShell_in_Action_Third_Edit.pdf)
+- [Learn Python the Hard Way **Recommended book for python**](/general_bibliography/LPTHW.pdf)
 
 ### [Return to root](/README.md)
