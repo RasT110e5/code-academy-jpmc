@@ -5,7 +5,7 @@ Repository for all material utilzed in the classes of the jpmc EIS Code Academy.
 | Date  | Class Content   | Lecturer   |
 |-------------- | -------------- | -------------- |
 |  04-29-2022   | [Class 1](/classes/class-1/README.md)     | Roque Sosa     |
-|  05-?-2022   | [Class 2](/classes/class-1/README.md)     | Pablo Marquez    |
+|  05-?-2022   | [Class 2](/classes/class-02/README.md)     | Pablo Marquez    |
 
 ## How to send general questions?
 <mark style="background-color:#3333FF">The idea will be for the participants to raise questions directly to their mentors<mark>.
