@@ -1,1 +1,3 @@
-Git_ Learn Version Control with Git_ A step-by-step Ultimate beginners Guide.pdf
+https://www.edureka.co/blog/common-git-mistakes/
+https://medium.com/@samanthawolhuter/git-culture-87ad8243e332
+https://git-scm.com/
