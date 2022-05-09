@@ -31,6 +31,8 @@ Can you delete something on Git?
 
 First, let's talk about local and remote repositories. As you know from the previous class, Git is a DVCS (distributed version control system). That means that there are multiple repositories instead of there being just one.
 
+![System](/classes//class-3//images/distributed_version_control.png)
+
 But if there are multiple repositories, which one is the *real* one? Well, developers agree on having that one on a server of some sort. Each programmer then clones that entire repository and shares their changes by submitting changes to the one in the server.
 
 From your machine's perspective, the repository on the server is the remote repository. The repository on your machine is the local repository. As you will see, everything will happen in a local repository.
@@ -39,7 +41,9 @@ From your machine's perspective, the repository on the server is the remote repo
 
 A branch is a stream of snapshots or **commits**. Each branch can represent a version of the project where there is a **main** version or branch.
 
-Team members agree on what to call that branch, but it really could be called anything. Currently, the main branch is normally called... well... "main".
+![System](/classes//class-3//images/git_branches.png)
+
+Team members agree on what to call that branch, but it really could be called anything.
 
 There can be virtually infinite branches on a git repository. But normally teams come up with a branching model that they will follow. For example, one of the branching models in software development can be like this:
 
