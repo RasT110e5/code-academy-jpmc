@@ -1,6 +1,9 @@
 # Code-Academy-JPMC
 Repository for all material utilized in the classes of the JPMC EIS Code Academy.
 
+## Project
+[Project Statement](project/problem-statement.txt)
+
 ## Classes
 | Date          | Class Content                            | Lecturer       |
 | ------------- | ---------------------------------------- | -------------- |
