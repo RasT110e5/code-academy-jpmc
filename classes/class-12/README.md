@@ -19,4 +19,7 @@ In this class we will discuss how to perform normalization up to the third norma
 ### Bibliography
 ----------------
 [Normalization (Spanish)](/classes/class-12/Normalizaci%C3%B3n.pdf)
+
 [SQL Queries Examples (Spanish)](/classes/class-12/Definici%C3%B3n%20de%20datos%20en%20SQL.pdf)
+
+[Class Material (Spanish)](/classes/class-12/Normalization_tablet.pdf)
