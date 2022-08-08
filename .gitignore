@@ -3,3 +3,7 @@
 
 #VSCode personal settings
 .vscode/
+
+#idea generated files
+.idea
+*.iml
