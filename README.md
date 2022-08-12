@@ -13,7 +13,7 @@ Repository for all material utilized in the classes of the JPMC EIS Code Academy
 |  05-20-2022   | [Class 4](/classes/class-4/README.md)    | Nayiby Rojas   |
 |  07-08-2022   | [Class 10](/classes/class-10-12/README.md)    | Roque Sosa   |
 |  07-22-2022   | [Class 12](/classes/class-10-12/README.md)    | Roque Sosa   |
-|  08-12-2022   | [Class 15](/classes/class-10-12/README.md)    | Roque Sosa   |
+|  08-12-2022   | [Class 15](/classes/class-15/README.md)    | Roque Sosa   |
 
 ## How to send general questions?
 <mark style="background-color:#3333FF">The idea will be for the participants to raise questions directly to their mentors<mark>.
