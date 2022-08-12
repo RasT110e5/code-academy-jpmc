@@ -8,12 +8,12 @@ public class StreamsAndOptionals {
   private static final List<String> names = Arrays.asList("George", "Akan", "Matt", "Brian", "Chuck");
 
   public static void main(String[] args) {
-    demonstrateMap();
-    demonstrateFilter();
-    demonstrateSort();
-    demonstrateCollectToDiffCollection();
-    demonstrateForeach();
-    demonstrateReduce();
+//    demonstrateMap();
+//    demonstrateFilter();
+//    demonstrateSort();
+//    demonstrateCollectToDiffCollection();
+//    demonstrateForeach();
+//    demonstrateReduce();
     demonstrateOptionals();
   }
 
