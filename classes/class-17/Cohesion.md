@@ -30,6 +30,7 @@ The concept of cohesion is normally related to the concept of [[Coupling]].
 - Testing requires more effort
 - Low reusability
 - Harder to understand
+- Harder to debug
 
 ## Types of Cohesion
 (From worst to best)
@@ -82,7 +83,7 @@ Module B {
 }
 ```
 
-Functiona cohesion should be the desired cohesion type to achieve. However, complexity may hinder that objective. If that happens, communicational cohesion may be the highest level of cohesion achievable.
+Functional cohesion should be the desired cohesion type to achieve. However, complexity may hinder that objective. If that happens, communicational cohesion may be the highest level of cohesion achievable.
 
 ### Atomic/Perfect
 There is only one part to a module. Since cohesion is a measure that occurs due to relationships of parts within a module, if there is only one part then cohesion is infinite (or cero depending on your outlook of life).
