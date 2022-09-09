@@ -9,6 +9,7 @@ Is a situation where an object uses another. It could also be thought as collabo
 >  Coupling is the degree of interdependence between software modules; a measure of how closely connected two routines or modules are; the strength of the relationships between modules.
 
 When defining coupling, we must consider the following properties.
+
 ## Properties
 ### Degree
 The number of connections between the module and others.  
@@ -72,6 +73,11 @@ final class Box {
     }
 }
 ```
+
+## Tight vs Loose Coupling
+
+![[Coupling_sketches_cropped_1.svg.png]]
+
 ## OOP Types
 ### Subclass
 It describes the relationships between parent and child class. Child is connected to Parent, not the other way around.
