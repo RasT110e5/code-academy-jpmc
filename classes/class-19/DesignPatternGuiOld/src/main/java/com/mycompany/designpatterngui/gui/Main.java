@@ -4,12 +4,6 @@
  */
 package com.mycompany.designpatterngui.gui;
 
-import com.mycompany.designpatterngui.gui.startegy.ImpresorConsola;
-import com.mycompany.designpatterngui.gui.startegy.ImpresorStrategy;
-import com.mycompany.designpatterngui.gui.startegy.ImpresorStrategyInterface;
-import com.mycompany.designpatterngui.gui.startegy.ImpresorTexto;
-import com.mycompany.designpatterngui.gui.startegy.Registro;
-
 /**
  *
  * @author Escritorio
@@ -118,15 +112,11 @@ public class Main extends javax.swing.JFrame {
     }//GEN-LAST:event_mnMultiplayerAccessActionPerformed
 
     private void mnArchivoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_mnArchivoActionPerformed
-        ImpresorStrategyInterface impresor = new ImpresorStrategy();
-        impresor.setStrategy(new ImpresorTexto());
-        impresor.imprimir(Registro.registro);
+        // TODO add your handling code here:
     }//GEN-LAST:event_mnArchivoActionPerformed
 
     private void mnConsolaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_mnConsolaActionPerformed
-        ImpresorStrategyInterface impresor = new ImpresorStrategy();
-        impresor.setStrategy(new ImpresorConsola());
-        impresor.imprimir(Registro.registro);
+        // TODO add your handling code here:
     }//GEN-LAST:event_mnConsolaActionPerformed
 
     /**

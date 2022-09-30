@@ -8,12 +8,6 @@ package com.mycompany.designpatterngui.log;
  *
  * @author Escritorio
  */
-public final class Log implements LoggerInterface{
-    
-    @Override
-    public void log(Object data){
-        System.out.println(data);
-        
-    }
-    
+public interface LoggerInterface {
+     public void log(Object data);
 }

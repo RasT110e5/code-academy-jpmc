@@ -2,18 +2,15 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package com.mycompany.designpatterngui.log;
+package com.mycompany.designpatterngui.gui.startegy;
+
+import java.util.List;
 
 /**
  *
- * @author Escritorio
+ * @author notebook
  */
-public final class Log implements LoggerInterface{
+public interface Impresor {
     
-    @Override
-    public void log(Object data){
-        System.out.println(data);
-        
-    }
-    
+    public void imprimir(List<String> data);
 }
