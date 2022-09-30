@@ -4,19 +4,15 @@
  */
 package com.mycompany.designpatterngui.gui;
 
-import com.mycompany.designpatterngui.gui.factory.MediaFactory;
 import com.mycompany.designpatterngui.gui.pane.PnImage;
 import com.mycompany.designpatterngui.gui.pane.PnWav;
-import com.mycompany.designpatterngui.gui.startegy.Registro;
 import com.mycompany.designpatterngui.log.Log;
 import com.mycompany.designpatterngui.log.LoggerInterface;
-import com.mycompany.designpatterngui.log.MyLogger;
 import java.awt.BorderLayout;
 import java.awt.Dimension;
 import java.io.File;
 import java.util.logging.Logger;
 import javax.swing.JFileChooser;
-import javax.swing.JPanel;
 
 /**
  *
@@ -24,7 +20,7 @@ import javax.swing.JPanel;
  */
 public class MyMultiPlayer extends javax.swing.JInternalFrame {
 
-    LoggerInterface log = new MyLogger();
+    LoggerInterface log = new Log();
     
     /**
      * Creates new form MyMultiplePlayer
@@ -95,24 +91,47 @@ public class MyMultiPlayer extends javax.swing.JInternalFrame {
 
     private void btnOpenActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnOpenActionPerformed
         JFileChooser fileChooser = new JFileChooser();
-        //dame la instancia de factory que la quiero usar, no importa como lo hagas
-        MediaFactory factory = MediaFactory.getInstance(); 
-        log.log("SELECCIONE IM FILE");
         int option = fileChooser.showOpenDialog(this);
         if(option == JFileChooser.APPROVE_OPTION){
             try {
-                
                 File file = fileChooser.getSelectedFile();
-                Registro.registro.add(file.getName());
                 log.log( file.getName());
                 BorderLayout layout = new BorderLayout();
-                //factory creame el panel que necesito, toma file hace lo que tengas que hacer
-                JPanel panelTorender = factory.createPanel(file);
-                this.pnRender.setLayout(layout);
-                this.pnRender.add(panelTorender);
-                this.pnRender.validate();
-                this.pnRender.repaint();
-                log.log("Renderizado");
+                if (file.getName().indexOf(".jpg") != -1){
+                    //RenderImage
+                    
+                    //deberia ser otro panel
+                    //y que el factory cree el panel basado en el file
+                    PnImage pn = new PnImage(file);                    
+                    pn.setVisible(true);
+                    pn.setPreferredSize(new Dimension(400,400));
+                    this.pnRender.setLayout(layout);
+                    this.pnRender.add(pn);
+                    this.pnRender.validate();
+                    this.pnRender.repaint();
+                    log.log("Renderizado");
+                }
+                
+                if (file.getName().indexOf(".wav") != -1){
+                    //Play Wav                    
+                    /*AudioInputStream stream = AudioSystem.getAudioInputStream(file);
+                    AudioFormat format = stream.getFormat();
+                    DataLine.Info info = new DataLine.Info(Clip.class, format);
+                    Clip clip = (Clip) AudioSystem.getLine(info);
+                    clip.open(stream);
+                    clip.start();*/
+                    PnWav pn = new PnWav(file);                    
+                    pn.setVisible(true);
+                    pn.setPreferredSize(new Dimension(400,400));
+                    this.pnRender.setLayout(layout);
+                    this.pnRender.add(pn);
+                    this.pnRender.validate();
+                    this.pnRender.repaint();
+                    log.log("Renderizado");
+                    //this.validate();
+                    //this.repaint();
+                    
+                }
             } catch (Exception ex) {
                 ex.printStackTrace();
             }

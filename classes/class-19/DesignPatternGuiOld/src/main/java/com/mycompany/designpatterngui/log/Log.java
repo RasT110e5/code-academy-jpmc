@@ -12,7 +12,6 @@ public final class Log implements LoggerInterface{
     
     @Override
     public void log(Object data){
-        System.out.println(data);
         
     }
     

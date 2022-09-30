@@ -6,14 +6,17 @@ package com.mycompany.designpatterngui.log;
 
 /**
  *
- * @author Escritorio
+ * @author notebook
  */
-public final class Log implements LoggerInterface{
+public class MyLogger implements LoggerInterface{
     
+    Log log = new Log();
+
     @Override
-    public void log(Object data){
-        System.out.println(data);
-        
+    public void log(Object data) {
+        log.log(data);
+        //todo lo de abajo es lo que tengo para agregar
+        System.out.println("Esto lo agregamos nosotros");
     }
     
 }

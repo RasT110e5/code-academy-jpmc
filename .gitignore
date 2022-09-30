@@ -3,3 +3,8 @@
 
 #VSCode personal settings
 .vscode/
+
+#idea generated files
+.idea
+*.iml
+/classes/class-19/DesignPatternGui/target/
